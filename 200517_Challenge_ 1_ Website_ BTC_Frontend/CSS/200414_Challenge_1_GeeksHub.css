@@ -1,0 +1,161 @@
+ /* -------------- Home page specifics  --------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    display: flexbox;
+    text-align: center;
+    color: grey;
+ }
+
+h1 {
+   background-color: rgba(255, 255, 255, 0.7);
+   color: grey;
+   font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+header {
+   background-color: grey;
+   padding: 30px;
+   opacity: 0.95;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   z-index: 2;
+ }
+
+ .upline {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ a {
+   all: unset;
+   color: white;
+ }
+
+ .imagefront {
+   background-image: url("../JPG/Image 27_002.png");
+   background-size: cover; 
+   background-position: center;
+   width: 100%;
+   height: auto;
+   font-size: 50px;
+   position: relative;
+   bottom: 60px;
+   z-index: 1;
+ }
+
+ .imagefront:before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.5);
+ }
+
+ .imagefront * {
+   position: relative; /* Makes elements display above overlay. */
+ }
+
+ .imagefront h1 {
+  bottom: 60px;
+  padding-top: 250px;
+  padding-bottom: 100px;
+ }
+
+ .location {
+   font-size: 30px;
+   text-align: center;
+   padding: 5px;
+   width: 800px;
+   margin: 0 auto;
+ }
+
+ .threepart img {
+   height: 150px;
+   opacity: 0.5;
+ }
+
+ .threepart {
+  height: 500px;
+ }
+
+ /* -------------- Contact page specifics  --------------*/
+ .mainbox {
+   background-image: url("../JPG/Image 15_003.png");
+   background-size: cover; 
+   background-position: center;
+   width: 100%;
+   height: 500px;
+   font-size: 50px;
+   position: relative;
+   top: 30px;
+   bottom: 60px;
+   z-index: 1;
+ }
+
+ .mainbox h2 {
+  bottom: 60px;
+  padding-top: 150px;
+ }
+
+ .mainbox:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+ }
+
+ .mainbox * {
+  position: relative; /* Makes elements display above overlay. */
+}
+
+ .button:hover {
+  background: rgba(182, 181, 181, 0.76);
+  color: #FFF;
+ }
+
+ .button {
+  color: grey;
+  height: 35px;
+  font-family: 'Open Sans', sans-serif;
+  border: hidden;
+ }
+
+ .linkedlogo {
+  width: 100px;
+ }
+
+ .imagenoun {
+  margin: 50px;
+  display: inline-block;
+ }
+ .message {
+   font-size: 25px;
+   height: 390px;
+   margin-bottom: 160px;
+ }
+
+ #dropline {
+  font-size: 50px;
+ }
+
+ footer {
+   display: flexbox;
+   align-items: flex-end;
+ }
+
+
+ /* Check boxes in a web page dev tools 
+ * {
+  border: 1px solid red !important;
+} */
