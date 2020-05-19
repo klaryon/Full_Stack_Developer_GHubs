@@ -3,9 +3,9 @@
 This is my html/css contact portfolio
 
 Tech used:
-*HTML5
-*CSS3
-*Flexbox
+* HTML5
+* CSS3
+* Flexbox
 
 # Functional requirements
 
