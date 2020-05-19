@@ -2,7 +2,7 @@
 
 This is my html/css contact portfolio
 
-tech used:
+Tech used:
 *HTML5
 *CSS3
 *Flexbox
