@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This is my html/css contact portfolio
 
@@ -7,7 +7,7 @@ tech used:
 *CSS3
 *Flexbox
 
-#Functional requirements
+# Functional requirements
 
 ## Home
 Only shows my name, where I'm based, and what I do.
